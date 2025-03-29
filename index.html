@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dark Launt RP</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header-container">
+            <div>
+                <div class="header">Dark Launt</div>
+                <div class="sub-header">RP политический сервер</div>
+            </div>
+            <div class="buttons">
+                <button class="button" onclick="copyIP()">darklaunt.game.fun</button>
+                <div class="players">
+                    <div class="status"></div>
+                    <span>Игроков онлайн: 120</span>
+                </div>
+            </div>
+        </div>
+        
+        <div class="main-content">
+            <div class="left-big">Основная информация о сервере</div>
+            <div class="right-small-container">
+                <div class="right-small">Доп. блок 1</div>
+                <div class="right-small">Доп. блок 2</div>
+            </div>
+        </div>
+
+        <div class="bottom-content">
+            <div class="bottom-box">Блок 1</div>
+            <div class="bottom-box">Блок 2</div>
+            <div class="bottom-box">Блок 3</div>
+            <div class="bottom-box">Блок 4</div>
+        </div>
+    </div>
+
+    <div class="footer">
+        <a href="#">Discord</a>
+        <a href="#">Telegram</a>
+        <a href="#">Карта</a>
+    </div>
+
+    <script>
+        function copyIP() {
+            navigator.clipboard.writeText("darklaunt.game.fun");
+            alert("IP сервера скопирован!");
+        }
+    </script>
+</body>
+</html>
